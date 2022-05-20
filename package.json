@@ -1,0 +1,17 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape website and generate HTML",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:scrape": "node ./src/scrapeWebsite.js",
+    "start:generate": "node ./src/generateHTML.js"
+  },
+  "author": "Brannon Oiler",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "14.1.0"
+  }
+}

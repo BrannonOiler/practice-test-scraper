@@ -1,0 +1,9 @@
+# Directories
+node_modules
+output
+
+# Config file
+config/config.json
+
+# Misc files
+.DS_Store
